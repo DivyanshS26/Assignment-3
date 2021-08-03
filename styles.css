@@ -1,0 +1,25 @@
+body{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    height: 100vh;
+    background-color: #370617;
+}
+
+button{
+    height: 50px;
+    width: 120px;
+    border: 3px solid #414833;    
+    color: #333d29;
+    background-color: #f8f9fa;
+    transition: 100ms;
+}
+
+button:hover{
+    transform: scale(1.01);
+    cursor: pointer;
+    background-color: #cbf3f0;
+    color: #52b788;
+    border: 3px solid #a5a58d;
+    box-shadow: 0px 5px 5px rgb(104,104,104);
+}
